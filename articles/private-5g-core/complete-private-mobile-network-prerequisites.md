@@ -28,7 +28,7 @@ Choose whether each site in the private mobile network should provide coverage f
 
 ## Allocate subnets and IP addresses
 
-Azure Private 5G Core requires a management network, access network, and one or more data networks. These networks can all be part of the same, larger network, or they can be separate. The approach you use depends on your traffic separation requirements.
+Azure Private 5G Core requires a management network, access network, and between one and three data networks. These networks can all be part of the same, larger network, or they can be separate. The approach you use depends on your traffic separation requirements.
 
 For each of these networks, allocate a subnet and then identify the listed IP addresses. If you're deploying multiple sites, you'll need to collect this information for each site.
 
@@ -80,7 +80,7 @@ Depending on your networking requirements (for example, if a limited set of subn
 
 ### Data networks
 
-Allocate the following IP addresses for each data network in the site:
+Allocate the following IP addresses for each data network (up to three) in the site:
 
 - Network address in CIDR notation.
 - Default gateway.
